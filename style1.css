@@ -231,85 +231,6 @@ ul li:hover ul.drop1{
     color: white;
 }
 /* Mobile-first: Small screens */
-@media screen and (max-width: 460px) {
-    nav{
-        margin-top: -5%;
-    }
-    .logo{
-        margin-top: 4%;
-    }
-    .btn-menu{
-        margin-top: 120%;
-    }
-    .menu1{
-        margin-left: 80%;
-    }
-
-    .menu ul li {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .menu li a {
-        padding: 15px;
-    }
-    .menu2 ul li {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-
-    .menu2 li a {
-        padding: 15px;
-    }
-    .c1 button, .c2 button{
-        margin-top: 100px;
-    }
-
-    .b{
-        margin-left: 60%;
-        margin-top: -100px;
-        width: 40%;
-        text-align: center;
-    }
-    .C {
-        margin-left: 60%;
-        margin-top: -60px;
-        width: 40%;
-        text-align: center;
-    }
-
-    .b a, .C a {
-        padding: 5px;
-        display: block;
-    }
-
-    .c1, .c2 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .fo1 {
-        margin-left: -20px;
-        margin-top: 8px;
-        text-align: left;
-        font-size: 10px;
-    }
-    .fo2 {
-        margin-left: 105px;
-        margin-top: -125px;
-        text-align: left;
-        font-size: 10px;
-    }
-    .fo3 {
-        margin-left: 282px;
-        margin-top: -125px;
-        text-align: left;
-        font-size: 10px;
-    }
-}
-
 
 @media screen and (max-width: 768px) {
     nav{
@@ -371,30 +292,157 @@ ul li:hover ul.drop1{
     }
 
     .fo1 {
-        margin-left: -20px;
+        margin-left: 40px;
         margin-top: 8px;
         text-align: left;
         font-size: 10px;
     }
     .fo2 {
-        margin-left: 105px;
-        margin-top: -125px;
+        margin-left: 240px;
+        margin-top: -125.5px;
         text-align: left;
         font-size: 10px;
     }
     .fo3 {
-        margin-left: 282px;
-        margin-top: -125px;
+        margin-left: 39px;
+        margin-top: 45px;
         text-align: left;
         font-size: 10px;
     }
 }
 /* Tablets: Medium screens */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    
+    nav{
+        margin-top: -5%;
+    }
+    .logo{
+        margin-top: 3.5%;
+    }
+    .btn-menu{
+        margin-top: 180%;
+    }
+    .menu1{
+        margin-left: 90%;
+    }
+
+    .menu ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li a {
+        padding: 15px;
+    }
+    .menu2 ul li {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .menu2 li a {
+        padding: 15px;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+    .b{
+        margin-left: 60%;
+        margin-top: -100px;
+        width: 40%;
+        text-align: center;
+    }
+    .C {
+        margin-left: 60%;
+        margin-top: -60px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .b a, .C a {
+        padding: 5px;
+        display: block;
+    }
+
+    .c1, .c2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .fo1 {
+        margin-left: 40px;
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo2 {
+        margin-left: 290px;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo3 {
+        margin-left: 520px;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
 }
 
 /* Large Screens: Desktops */
 @media screen and (min-width: 1025px) {
-    
+    .logo{
+        margin-top: 14px;
+    }
+    menu{
+        margin-top: -200px;
+    }
+    .menu1{
+        display: none;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+    .b{
+        margin-left: 60%;
+        margin-top: -100px;
+        width: 40%;
+        text-align: center;
+    }
+    .C {
+        margin-left: 60%;
+        margin-top: -60px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .b a, .C a {
+        padding: 5px;
+        display: block;
+    }
+
+    .c1, .c2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fo1 {
+        margin-left: 230px;
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo2 {
+        margin-left: 450px;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo3 {
+        margin-left: 800px;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
 }
