@@ -427,8 +427,11 @@ ul li:hover ul.drop1{
         width: 100%;
         margin-top: 20px;
     }
+    .f{
+        width: 100%;
+    }
     .fo1 {
-        margin-left: 230px;
+        margin-left: 10%;
         margin-top: 8px;
         text-align: left;
         font-size: 15px;
@@ -440,7 +443,7 @@ ul li:hover ul.drop1{
         font-size: 15px;
     }
     .fo3 {
-        margin-left: 800px;
+        margin-left: 80%;
         margin-top: -160px;
         text-align: left;
         font-size: 15px;
