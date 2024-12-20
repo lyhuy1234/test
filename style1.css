@@ -232,7 +232,7 @@ ul li:hover ul.drop1{
 }
 /* Mobile-first: Small screens */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     nav{
         margin-top: -5%;
     }
@@ -292,19 +292,19 @@ ul li:hover ul.drop1{
     }
 
     .fo1 {
-        margin-left: -10px;
+        margin-left: 40px;
         margin-top: 8px;
         text-align: left;
         font-size: 10px;
     }
     .fo2 {
-        margin-left: 155px;
+        margin-left: 190px;
         margin-top: -125.5px;
         text-align: left;
         font-size: 10px;
     }
     .fo3 {
-        margin-left: -10px;
+        margin-left: 39px;
         margin-top: 45px;
         text-align: left;
         font-size: 10px;
